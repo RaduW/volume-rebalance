@@ -16,7 +16,8 @@ PROJECTS = {
 def main():
     first_line = True
     result = []
-    with open("dist-query.csv", "rt") as f:
+    version="2023-03-30"
+    with open(f"dist-query-{version}.csv", "rt") as f:
         reader = csv.reader(f)
         for line in reader:
             if first_line:
@@ -33,7 +34,7 @@ def main():
                 "proj_name": project_name
             })
 
-    with open("projects.json", "wt") as f:
+    with open(f"projects-{version}.json", "wt") as f:
         json.dump(result,f, indent=2)
 
 if __name__ == '__main__':

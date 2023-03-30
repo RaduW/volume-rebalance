@@ -1,0 +1,6758 @@
+[
+  {
+    "name": "/api/0/organizations/{organization_slug}/sessions/",
+    "freq": 61.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/bitbucket-server/organizations/{organization_id}/webhook/{integration_id}/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.integrations.kick_off_status_syncs",
+    "freq": 212.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/teams/{organization_slug}/{team_slug}/members/",
+    "freq": 11.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/members/{member_id}/",
+    "freq": 100.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/:groupId/merged/",
+    "freq": 75.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/profiling/",
+    "freq": 15.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.activity.send_activity_notifications",
+    "freq": 776.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/customers/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/",
+    "freq": 2737.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/_admin/customers/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/alert-rules/{alert_rule_id}/",
+    "freq": 33.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/users/",
+    "freq": 128.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/teams/",
+    "freq": 60.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/plugins/jira-ac/plugin",
+    "freq": 277.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/plugins/",
+    "freq": 5.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/scim/v2/Users/{member_id}",
+    "freq": 40.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/issues/:groupId/events/:eventId/",
+    "freq": 288.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.incidents.tasks.send_subscriber_notifications",
+    "freq": 66.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.store.symbolicate_event",
+    "freq": 3777.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/account/notifications/unsubscribe/issue/{issue_id}/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.files.delete_file",
+    "freq": 7194.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/integrations/:providerKey/:integrationId/",
+    "freq": 83.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/alerts/rules/",
+    "freq": 10.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/issues|groups/{issue_id}/events/",
+    "freq": 1395.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/:groupId/tags/",
+    "freq": 171.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/events/{event_id}/attachments/",
+    "freq": 416.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/crons/",
+    "freq": 4.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/issues|groups/{issue_id}/external-issues/",
+    "freq": 1894.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/{organization_slug}/payments/{payment_id}/pdf/{token}",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/members/",
+    "freq": 23.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "getsentry.tasks.send_lead_to_marketo",
+    "freq": 30.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/",
+    "freq": 470.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/discover/queries/",
+    "freq": 45.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/:groupId/tags/:tagKey/",
+    "freq": 339.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/teams/{organization_slug}/{team_slug}/projects/",
+    "freq": 45.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/alerts/rules/details/:ruleId/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/projects/:projectId/",
+    "freq": 13.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/{organization_slug}/",
+    "freq": 56560.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/tags/",
+    "freq": 34.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/auth-provider/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/replays/:replaySlug/",
+    "freq": 540.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/replays/",
+    "freq": 12.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/:groupId/events/",
+    "freq": 5577.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "//index.php",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/reprocessing/",
+    "freq": 94.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/plugins/bitbucket/organizations/{organization_id}/webhook/",
+    "freq": 3.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/discover/",
+    "freq": 9.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/users/{user_id}/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.assemble.assemble_artifacts",
+    "freq": 803.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/teams/{organization_slug}/{team_slug}/",
+    "freq": 38.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "externalIssueForm.submit",
+    "freq": 63.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/tags/",
+    "freq": 14.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/keys/{key_id}/",
+    "freq": 24.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "scim.provision_member",
+    "freq": 14.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/projects/:projectId/environments/hidden/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/data-forwarding/",
+    "freq": 26.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/release-tracking/",
+    "freq": 39.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/releases/",
+    "freq": 1916.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "integration.http_response.msteams",
+    "freq": 139.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/_admin/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/issues|groups/{issue_id}/tags/{key}/",
+    "freq": 9.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "SlackUnlinkIdentityView",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/dashboard/:dashboardId/widget/:widgetId/",
+    "freq": 32.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.derive_code_mappings.derive_code_mappings",
+    "freq": 81.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/profiling/functions/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/members/",
+    "freq": 812.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/processingissues/",
+    "freq": 13.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/searches/",
+    "freq": 26.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/webservices",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/alerts/rules/:projectId/:ruleId/",
+    "freq": 429.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.send_sso_link_emails",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/auth/",
+    "freq": 103.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/repos/",
+    "freq": 39.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/environments/",
+    "freq": 155.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/sentry-apps/",
+    "freq": 13.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.integrations.slack.link_users_identities",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/performance/",
+    "freq": 17.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/prompts-activity/",
+    "freq": 144.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/releases/",
+    "freq": 8.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/auth/login/",
+    "freq": 3947.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/account/security/mfa/:authId/",
+    "freq": 8.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/codeowners/",
+    "freq": 4.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/security-headers/",
+    "freq": 4.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/tags/{key}/values/",
+    "freq": 18.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/install/:platform/",
+    "freq": 21.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/projects/new/",
+    "freq": 108.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/activity/",
+    "freq": 23.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "integration.http_response.gitlab",
+    "freq": 662.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/adadaddadad",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/jira/search/{organization_slug}/{integration_id}/",
+    "freq": 4.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/performance/summary/spans/:spanSlug/",
+    "freq": 127.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/profiling/summary/:projectId/",
+    "freq": 108.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/projects/:projectId/getting-started/",
+    "freq": 9.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/jira-server/issue-updated/{token}/",
+    "freq": 1236.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/dashboard/:dashboardId/widget/new/",
+    "freq": 8.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/issues|groups/{issue_id}/",
+    "freq": 25.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/sentry-apps/:integrationSlug",
+    "freq": 8.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/releases/{version}/files/{file_id}/",
+    "freq": 210.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/rules/",
+    "freq": 5.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.low_priority_symbolication.scan_for_suspect_projects",
+    "freq": 10.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/keys/:keyId/",
+    "freq": 24.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/releases/{version}/files/",
+    "freq": 869.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/replays/",
+    "freq": 639.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/journal/issues",
+    "freq": 78.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/favicon.ico",
+    "freq": 12.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/audit-log/",
+    "freq": 11.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/broadcasts/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/events/{event_id}/owners/",
+    "freq": 92.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "query_subscription_consumer_process_message",
+    "freq": 21805.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.process_resource_change_bound",
+    "freq": 488.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/grouping/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/new/",
+    "freq": 19.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/relays/live/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/onboarding-tasks/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/replays/:replaySlug/",
+    "freq": 24.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/repos/",
+    "freq": 119.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/_admin/customers/:orgId/projects/:projectId/",
+    "freq": 7.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/legal/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.relay.build_project_config",
+    "freq": 11525.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/relays/projectconfigs/",
+    "freq": 7345.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/performance/summary/",
+    "freq": 3990.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/.*/",
+    "freq": 597.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/issues/",
+    "freq": 1158.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/sentry-apps/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/users/",
+    "freq": 6.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/install/",
+    "freq": 20.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/customers/{organization_slug}/policies/",
+    "freq": 14.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/hooks/release/{plugin_id}/{project_id}/{signature}/",
+    "freq": 4.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/releases/{version}/deploys/",
+    "freq": 159.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "plugin.http_response.victorops",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/issues|groups/{issue_id}/tags/",
+    "freq": 323.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/subscriptions/{organization_slug}/",
+    "freq": 9.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/spike-protection/",
+    "freq": 3.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.relay.invalidate_project_config",
+    "freq": 317.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "RelayProjectConfigsEndpoint",
+    "freq": 18317.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/dashboard/:dashboardId/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.user_report",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "plugin.http_response.splunk",
+    "freq": 5331.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.store.save_event",
+    "freq": 48668.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/auth/login/{organization_slug}/",
+    "freq": 7523.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/{organization_slug}/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/doc-integrations/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/metrics-compatibility-sums/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/{project_id}/crossdomain.xml",
+    "freq": 820.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/login",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/integrations/",
+    "freq": 20.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/projects/",
+    "freq": 3393.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/issues-stats/",
+    "freq": 155.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/projects/:projectId/install/",
+    "freq": 9.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/",
+    "freq": 23287.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/issues|groups/{issue_id}/integrations/",
+    "freq": 138.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "integration.http_response.slack",
+    "freq": 3942.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/age.xml",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/onboarding/:step/",
+    "freq": 167.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.clear_expired_resolutions",
+    "freq": 4093.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/",
+    "freq": 529.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.profiles.task.process_profile",
+    "freq": 10401.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "SlackLinkTeamView",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/{organization_slug}/performance/",
+    "freq": 12.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/webservice",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.files.delete_unreferenced_blobs",
+    "freq": 12469.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/discover/:eventSlug/",
+    "freq": 1810.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/robots.txt",
+    "freq": 18.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "integration.http_response.bitbucket_server",
+    "freq": 9.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/actuator/heapdump",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/alerts/",
+    "freq": 12.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/user-feedback/",
+    "freq": 11.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/releases/:release/files-changed/",
+    "freq": 7.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/events/",
+    "freq": 440.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.integrations.sync_status_outbound",
+    "freq": 9.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/app.zip",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/issues|groups/{issue_id}/tags/{key}/values/",
+    "freq": 191.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/promotions/trigger-check/",
+    "freq": 68.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/recent-searches/",
+    "freq": 100.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/billing/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "integration.http_response.vercel",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.send_ping",
+    "freq": 25.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/crons/create/",
+    "freq": 19.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/processing-issues/",
+    "freq": 39.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/user-feedback/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "integration.jira_server",
+    "freq": 4.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/assistant/",
+    "freq": 21.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "replays.consumer.process_recording",
+    "freq": 2106.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "integration.aws_lambda",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/events-trends-stats/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/releases/{version}/resolved/",
+    "freq": 7.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/releases/stats/",
+    "freq": 7.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/performance/summary/events/",
+    "freq": 618.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/events-facets/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "integration.http_response.jira_server",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/:orgId/:projectId/getting-started/:platform/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.post_process.post_process_group",
+    "freq": 47497.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/events-histogram/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/scim/v2/Groups",
+    "freq": 38.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/source-maps/release-bundles/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "MsTeamsWebhookEndpoint",
+    "freq": 29.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/.well-known/dnt-policy.txt",
+    "freq": 115.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/broadcasts/",
+    "freq": 346.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.low_priority_symbolication.update_lpq_eligibility",
+    "freq": 25856.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/jira_server/setup",
+    "freq": 21.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/discover/homepage/",
+    "freq": 2495.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/sentry-app-components/",
+    "freq": 106.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/stats/health/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/ownership/",
+    "freq": 59.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/relays/publickeys/",
+    "freq": 31.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/age-de.xml",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/teams/",
+    "freq": 26.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/issues-count/",
+    "freq": 169.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/:groupId/",
+    "freq": 176213.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/issues/:groupId/events/",
+    "freq": 13.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "SlackEventEndpoint",
+    "freq": 6687.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/performance/summary/tags/",
+    "freq": 81.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/account/identities/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/stats/issues/",
+    "freq": 61.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/account/details/",
+    "freq": 88.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/account/api/applications/:appId/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/share/group|issue/{share_id}/",
+    "freq": 5.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/issue-grouping/",
+    "freq": 31.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/events-trace/{trace_id}/",
+    "freq": 25.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/events-meta/",
+    "freq": 82.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "integration.gitlab",
+    "freq": 8.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "integration.http_response.bitbucket",
+    "freq": 329.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/repos/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "getsentry.tasks.slack.new_organization_notify",
+    "freq": 29.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "ProjectRuleActionsEndpoint",
+    "freq": 32.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/replays-events-meta/",
+    "freq": 4.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/jira_server/setup/rest/applinks/latest/manifest",
+    "freq": 9.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.integrations.slack.post_message",
+    "freq": 140.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/issues/:groupId/tags/:tagKey/",
+    "freq": 13.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/crons/",
+    "freq": 168.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/performance/summary/spans/",
+    "freq": 231.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/events-stats/",
+    "freq": 34.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/{organization_slug}/members/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/files/dsyms/",
+    "freq": 16585.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/dashboard/:dashboardId/widget/:widgetIndex/edit/",
+    "freq": 78.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/customers/{organization_slug}/subscription/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/chunk-upload/",
+    "freq": 2088.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/events/",
+    "freq": 764.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/files/difs/assemble/",
+    "freq": 909.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/organization/",
+    "freq": 714.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/projects/:projectId/getting-started/:platform/",
+    "freq": 18.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/discover/results/",
+    "freq": 3300.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/metrics-compatibility/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/performance/summary/vitals/",
+    "freq": 176.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "plugin.http_response.opsgenie",
+    "freq": 68.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.check_auth_identity",
+    "freq": 7228.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/share/issue/:shareId/",
+    "freq": 126.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/debug-symbols/",
+    "freq": 10.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/merged/",
+    "freq": 7.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/docs/api/user/",
+    "freq": 43.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/remote/beacon/",
+    "freq": 113.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/:groupId/similar/",
+    "freq": 111.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/_admin/promocodes/:codeId/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/developer-settings/:appSlug/",
+    "freq": 16.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/subscription/redeem-code/",
+    "freq": 15.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/teams/",
+    "freq": 262.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/dashboards/new/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/alert-rules/{alert_rule_id}/",
+    "freq": 3.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/members/",
+    "freq": 48.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/alerts/:projectId/wizard/",
+    "freq": 4.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/events/{event_id}/attachments/{attachment_id}/",
+    "freq": 1188.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/jira_server/setup/plugins/servlet/streams",
+    "freq": 39.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/github-enterprise/webhook/",
+    "freq": 34.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/projects/:projectId/",
+    "freq": 19829.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/data-export/:dataExportId",
+    "freq": 3.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "getsentry.tasks.sentinel_monitor_dsn_auth",
+    "freq": 3.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/projects/new/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.app_store_connect.dsym_download",
+    "freq": 8.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/attachments/",
+    "freq": 24.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/scim/v2/Users",
+    "freq": 59.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/doc-integration-avatar/{avatar_id}/",
+    "freq": 32.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/account/subscriptions/",
+    "freq": 4.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/releases/{version}/assemble/",
+    "freq": 879.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/source-maps/debug-id-bundles/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/js-sdk-loader/{public_key}{minified}.js",
+    "freq": 6080.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/stats/",
+    "freq": 522.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/:orgId/:projectId/dashboard/",
+    "freq": 24.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/relay/",
+    "freq": 7.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/:groupId/grouping/",
+    "freq": 6.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/environments/",
+    "freq": 35.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/account/emails/",
+    "freq": 479.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/[0]+/",
+    "freq": 928.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/jira_server/setup/rest/applinks/latest/capabilities/STATUS_API",
+    "freq": 6.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/events-geo/",
+    "freq": 3.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/ownership/",
+    "freq": 10.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/performance/",
+    "freq": 6546.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/:groupId/attachments/",
+    "freq": 69.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.sentry_apps.send_alert_event",
+    "freq": 6.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/performance/summary/replays/",
+    "freq": 10.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "tasks.spike_protection.run_spike_projection",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/billing/usage/",
+    "freq": 10.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/keys/{key_id}/stats/",
+    "freq": 738.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/{organization_slug}/integrations/{provider_id}/setup/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.process_suspect_commits",
+    "freq": 169.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/events/{event_id}/",
+    "freq": 128.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/account/",
+    "freq": 6.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/members/:memberId/",
+    "freq": 55.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/",
+    "freq": 7.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/journal/performance",
+    "freq": 6.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/alerts/metric-rules/:projectId/:ruleId/",
+    "freq": 91.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/projects/:projectId/keys/:keyId/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/legal/",
+    "freq": 4.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/projects/",
+    "freq": 16.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/aws/credentials",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.store.symbolicate_event_low_priority",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/releases/:release/",
+    "freq": 2599.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/disabled-member/",
+    "freq": 45.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/projects/:projectId/ownership/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/files/source-maps/",
+    "freq": 6.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/client-config/",
+    "freq": 3.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "plugin.http_response.webhook",
+    "freq": 811.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/teams/:teamId/settings/",
+    "freq": 5.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/js-sdk-loader/*/5.min.js",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/sentry-app-avatar/{avatar_id}/",
+    "freq": 82.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/",
+    "freq": 595.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/projects/:projectId/alerts/",
+    "freq": 3.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/security-and-privacy/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.commits.fetch_commits",
+    "freq": 2005.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "ProjectRuleDetailsEndpoint",
+    "freq": 3877.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "//web/wp-includes/wlwmanifest.xml",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/integrations/",
+    "freq": 538.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "ProjectRulesEndpoint",
+    "freq": 302.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.incidents.tasks.handle_trigger_action",
+    "freq": 27.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/security-and-privacy/",
+    "freq": 72.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/security-and-privacy/",
+    "freq": 101.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/github/search/{organization_slug}/{integration_id}/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/issues|groups/",
+    "freq": 2661.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/users/{user_id}/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/plugins/github/organizations/{organization_id}/webhook/",
+    "freq": 64.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/crons/:monitorSlug/edit/",
+    "freq": 6.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/{organization_slug}/{sub_page}/",
+    "freq": 34.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/projects/:projectId/environments/",
+    "freq": 4.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/shortids/{short_id}/",
+    "freq": 23.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/replay-count/",
+    "freq": 89.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/",
+    "freq": 95.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/billing/usage-log/",
+    "freq": 16.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/teams/:teamId/members/",
+    "freq": 59.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/account/close-account/",
+    "freq": 4.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/pendo-details/",
+    "freq": 367.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/slack/action/",
+    "freq": 3.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/profiling/profile/:projectId/:eventId/flamechart/",
+    "freq": 25.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/actuator/env",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/environments/",
+    "freq": 29.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/account/api/applications/",
+    "freq": 5.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/events-has-measurements/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/users/{user_id}/notification-settings/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/rules/{rule_id}/stats/",
+    "freq": 3.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/performance/summary/profiles/",
+    "freq": 7.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/{organization_slug}/auth/configure/",
+    "freq": 3.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.store.save_event_attachments",
+    "freq": 284.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/alerts/wizard/",
+    "freq": 18.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/developer-settings/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/getting-started/:projectId/:platform/",
+    "freq": 165.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "SlackLinkIdentityView",
+    "freq": 14.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/releases/",
+    "freq": 1469.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/issues/(searches/:searchId/)",
+    "freq": 2962.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/alerts/",
+    "freq": 143.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organization-avatar/{avatar_id}/",
+    "freq": 109.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/customers/{organization_slug}/billing-config/",
+    "freq": 4.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "plugin.http_response.slack",
+    "freq": 227.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/releases/{version}/",
+    "freq": 2370.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/accept/:memberId/:token/",
+    "freq": 146.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/projects/",
+    "freq": 286.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "//css/album.css",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/issues|groups/{issue_id}/",
+    "freq": 464.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/alerts/rules/:projectId/:ruleId/details/",
+    "freq": 768.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/rules/preview",
+    "freq": 7.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/document-integrations/:integrationSlug",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.store.process_event",
+    "freq": 25235.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/join-request/:orgId/",
+    "freq": 19.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.store.preprocess_event",
+    "freq": 2123.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/vercel/delete/",
+    "freq": 69.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/jira/issue/{issue_key}/",
+    "freq": 24109.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/replays/",
+    "freq": 5.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.process_commit_context",
+    "freq": 144.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.snuba.tasks.update_subscription_in_snuba",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/plugins/:pluginId/",
+    "freq": 13.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "integration.http_response.pagerduty",
+    "freq": 55.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/:groupId/feedback/",
+    "freq": 118.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/embed/error-page/",
+    "freq": 136.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/alerts/new/:alertType/",
+    "freq": 189.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/{provider_id}/setup/",
+    "freq": 37.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "SlackActionEndpoint",
+    "freq": 454.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/client-state/",
+    "freq": 31.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/monitors/{monitor_id}/checkins/",
+    "freq": 371.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/relay/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/jira-server/setup/plugins/servlet/streams",
+    "freq": 5.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/crons/:monitorSlug/",
+    "freq": 216.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.sentry_metrics.consumers.indexer.processing.process_messages",
+    "freq": 396128.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/stats/",
+    "freq": 1633.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/_admin/users/",
+    "freq": 3.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/alerts/:alertId/",
+    "freq": 140.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/github/webhook/",
+    "freq": 3089.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/releases/{version}/commits/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/{organization_slug}/issues/",
+    "freq": 153.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/issues|groups/{issue_id}/events/latest/",
+    "freq": 445.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "plugin.http_response.pagerduty",
+    "freq": 11.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/releases/{version}/stats/",
+    "freq": 5.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/keys/",
+    "freq": 110.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/integrations/:integrationSlug",
+    "freq": 15.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "integration.slack",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.assemble.assemble_dif",
+    "freq": 2431.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/media../.git/config",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/teams/{organization_slug}/{team_slug}/stats/",
+    "freq": 4.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/alerts/rules/:projectId/:ruleId/details/",
+    "freq": 17.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/accept-transfer/",
+    "freq": 9.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/{organization_slug}/issues/{group_id}/events/{event_id_or_latest}/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/auth/register/",
+    "freq": 32.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/environments/hidden/",
+    "freq": 12.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/dashboard/",
+    "freq": 11.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/wizard/{wizard_hash}/",
+    "freq": 6.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/jira-server/setup/rest/applinks/latest/manifest",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/discover/results/",
+    "freq": 14.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "integration.http_response.jira",
+    "freq": 25045.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/monitors/{monitor_id}/checkins/",
+    "freq": 817.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/events/",
+    "freq": 23329.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/issues|groups/{issue_id}/events/oldest/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/:groupId/replays/",
+    "freq": 142.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/auth-details/",
+    "freq": 51.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/sentry-app-installations/{uuid}/authorizations/",
+    "freq": 23.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/transaction-threshold/configure/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/alerts/rules/",
+    "freq": 393.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/dashboards/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.send_process_resource_change_webhook",
+    "freq": 565.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/billing/receipts/",
+    "freq": 36.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/saml/acs/{organization_slug}/",
+    "freq": 20.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/sentry-app-installations/{uuid}/external-requests/",
+    "freq": 3.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/events/{event_id}/committers/",
+    "freq": 158.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/events/{project_slug}:{event_id}/",
+    "freq": 6.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/remote/heroku/sso-login/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/internal/health/",
+    "freq": 118.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/source-maps/:name/",
+    "freq": 65.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/performance/vitaldetail/",
+    "freq": 26.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/projects/",
+    "freq": 115.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/disabled-member/",
+    "freq": 21.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/{organization_slug}/{project_id}/",
+    "freq": 3.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/issues|groups/{issue_id}/attachments/",
+    "freq": 15.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/developer-settings/:appSlug/dashboard/",
+    "freq": 4.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/",
+    "freq": 15.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/profiling/",
+    "freq": 725.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/key-transactions-list/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/*",
+    "freq": 300.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/alert-rules/",
+    "freq": 5.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "getsentry.tasks.plan_change_feature_handler",
+    "freq": 29.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/account/api/auth-tokens/",
+    "freq": 91.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.check_auth",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.update_code_owners_schema",
+    "freq": 31.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/account/notifications/:fineTuneType/",
+    "freq": 100.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/dashboards/new/widget/new/",
+    "freq": 5.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/",
+    "freq": 43.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.reprocess_events",
+    "freq": 94.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "ProjectRulePreviewEndpoint",
+    "freq": 510.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "externalIssueForm.load",
+    "freq": 65.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/account/authorizations/",
+    "freq": 5.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/auth/2fa/",
+    "freq": 227.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/wizard/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/jira-server/setup/rest/applinks/latest/capabilities/STATUS_API",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/performance/",
+    "freq": 71.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "PipelineAdvancerView",
+    "freq": 1978.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/releases/completion/",
+    "freq": 110.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.options.sync_options",
+    "freq": 10.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/projects/:projectId/keys/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/",
+    "freq": 17.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/stats_v2/",
+    "freq": 11666.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/events/{event_id}/source-map-debug/",
+    "freq": 21.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/releases/:release/commits/",
+    "freq": 57.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/issues/:groupId/",
+    "freq": 690.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/billing/checkout/",
+    "freq": 249.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/bitbucket/organizations/{organization_id}/webhook/",
+    "freq": 57.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/performance/trends/",
+    "freq": 60.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/teams/",
+    "freq": 55.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/*/envelope",
+    "freq": 9.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/sentry-app-installations/",
+    "freq": 104.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/rest/applinks/latest/capabilities/STATUS_API",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/tags/",
+    "freq": 11.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/identity/login/{provider}/",
+    "freq": 7.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "proguard.deobfuscate_view_hierarchy",
+    "freq": 266.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/_health",
+    "freq": 45.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/stats/",
+    "freq": 19182.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/performance/:eventSlug/",
+    "freq": 965.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/account/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.digests.deliver_digest",
+    "freq": 592.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/apple-touch-icon.png",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.monitors.tasks.check_monitors",
+    "freq": 65.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/similar/",
+    "freq": 10.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/alerts/rules/:projectId/:ruleId/",
+    "freq": 27.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.digests.schedule_digests",
+    "freq": 4.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "plugin.http_response.twilio",
+    "freq": 6.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/get-cli/",
+    "freq": 57.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.store.save_event_transaction",
+    "freq": 55849.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/releases/{version}/",
+    "freq": 12043.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/getting-started/{project_slug}/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/plugins/configs/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/releases/{version}/previous-with-commits/",
+    "freq": 9.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.integrations.sync_assignee_outbound",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.enqueue_scheduled_jobs",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/performance/trace/:traceSlug/",
+    "freq": 48.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "integration.bitbucket",
+    "freq": 4.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/plugins/:integrationSlug/",
+    "freq": 3.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/alerts/rules/details/:ruleId/",
+    "freq": 851.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "plugin.http_response.pushover",
+    "freq": 15.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/signup/",
+    "freq": 14.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/{organization_slug}/teams/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "getsentry.tasks.quotas.react_to_spike_protection",
+    "freq": 56.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/{organization_slug}/",
+    "freq": 5.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/teams/",
+    "freq": 6.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings.py",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "",
+    "freq": 2897.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/dashboards/",
+    "freq": 339.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "getsentry.tasks.stats.sync_organization",
+    "freq": 186.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.sentry_apps.workflow_notification",
+    "freq": 44.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/account/security/",
+    "freq": 56.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/discover/homepage/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/monitors/{monitor_id}/checkins/{checkin_id}/",
+    "freq": 736.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.process_buffer.buffer_incr_task",
+    "freq": 49838.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/tags/:tagKey/",
+    "freq": 14.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/monitors/{monitor_id}/checkins/{checkin_id}/attachment/",
+    "freq": 24.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/rules/{rule_id}/group-history/",
+    "freq": 4.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/accept/{member_id}/{token}/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/user-feedback/",
+    "freq": 39.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/gitlab/webhook/",
+    "freq": 240.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/dashboards/new/:templateId",
+    "freq": 41.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/keys/",
+    "freq": 1344.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.email.send_email",
+    "freq": 1978.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/developer-settings/",
+    "freq": 45.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/account/security/mfa/:authId/enroll/",
+    "freq": 8.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/rules/{rule_id}/",
+    "freq": 66.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "integration.github",
+    "freq": 4.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.code_owners_auto_sync",
+    "freq": 3.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/jira/issue-updated/",
+    "freq": 5281.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/_admin/customers/:orgId/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/vsts/issue-updated/",
+    "freq": 243.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/:orgId/:projectId/",
+    "freq": 211.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/projects/:projectId/",
+    "freq": 257.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/onboarding/:orgId/:step/",
+    "freq": 33.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.integrations.slack.search_channel_id",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/_admin/promocodes/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/account/recover/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/events/{event_id}/grouping-info/",
+    "freq": 98.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/getting-started/:projectId/",
+    "freq": 3.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/crossdomain.xml",
+    "freq": 747.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/{organization_slug}/issues/{group_id}/",
+    "freq": 5.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/stacktrace-link/",
+    "freq": 55.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/account/api/",
+    "freq": 14.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/customers/{organization_slug}/members/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/",
+    "freq": 379.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/billing/checkout/",
+    "freq": 10.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/relays/register/response/",
+    "freq": 62.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/issues|groups/{issue_id}/first-last-release/",
+    "freq": 116.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/billing/overview/",
+    "freq": 247.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/auth/login/tice",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "plugin.http_response.heroku",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/projects/:projectId/release-tracking/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/",
+    "freq": 120.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/billing/details/",
+    "freq": 48.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/account/notifications/",
+    "freq": 121.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/filters/:filterType/",
+    "freq": 69.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/",
+    "freq": 251.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/stats/",
+    "freq": 23.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/sent-first-event/",
+    "freq": 14.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "integration.http_response.github",
+    "freq": 42049.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/monitors/{monitor_id}/checkins/{checkin_id}/",
+    "freq": 261.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/plugins/servlet/streams",
+    "freq": 3.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/performance/summary/",
+    "freq": 22.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/:integrationSlug/link/",
+    "freq": 4.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/releases/:release/",
+    "freq": 83.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/issues|groups/{issue_id}/current-release/",
+    "freq": 185.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/relays/register/challenge/",
+    "freq": 49.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/events/{event_id}/ai-fix-suggest/",
+    "freq": 24.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/user-feedback|user-reports/",
+    "freq": 5.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/customers/{organization_slug}/usage/",
+    "freq": 24.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/issues|groups/{issue_id}/plugins/jira/create/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "sentry.tasks.integrations.sync_status_inbound",
+    "freq": 1043.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/source-maps/",
+    "freq": 205.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "integration.http_response.vsts",
+    "freq": 18.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/projects/:projectId/proguard/",
+    "freq": 4.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/dashboard/:dashboardId/",
+    "freq": 9143.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/reddit-inc",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/{organization_slug}/{project_id}/issues/{group_id}/",
+    "freq": 2.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/sentry-apps/{sentry_app_slug}/requests/",
+    "freq": 92.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/:orgId/billing/details/",
+    "freq": 22.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/integrations/:integrationSlug",
+    "freq": 178.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/(searches/:searchId/)",
+    "freq": 86679.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/projects/{organization_slug}/{project_slug}/releases/",
+    "freq": 35801.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/users/{user_id}/emails/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/incidents/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/codecov-jwt/",
+    "freq": 25.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/events-trace-light/{trace_id}/",
+    "freq": 24.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/releases/{version}/files/",
+    "freq": 1122.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/teams/:teamId/notifications/",
+    "freq": 55.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "issues.occurrence_consumer",
+    "freq": 659.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/extensions/slack/event/",
+    "freq": 151.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/organizations/{organization_slug}/invite-requests/",
+    "freq": 14.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/teams/:teamId/projects/",
+    "freq": 35.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/organizations/:orgId/issues/:groupId/activity/",
+    "freq": 16.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/api/0/issues|groups/{issue_id}/notes|comments/",
+    "freq": 1.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/avatar/{avatar_id}/",
+    "freq": 49.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/auth/sso/",
+    "freq": 666.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/issues/:groupId/activity/",
+    "freq": 503.0,
+    "proj_id": 1,
+    "proj_name": "sentry"
+  },
+  {
+    "name": "/settings/developer-settings/",
+    "freq": 120.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/account/api/applications/",
+    "freq": 17.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/dashboard/:dashboardId/",
+    "freq": 16314.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/security-and-privacy/",
+    "freq": 153.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "flamegraph.constructor",
+    "freq": 10.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/_admin/promocodes/",
+    "freq": 2.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/auth/",
+    "freq": 10.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/plugins/",
+    "freq": 15.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/attachments/",
+    "freq": 53.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/teams/:teamId/projects/",
+    "freq": 74.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/getting-started/:projectId/",
+    "freq": 3.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/projects/:projectId/getting-started/:platform/",
+    "freq": 10.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/projects/:projectId/alerts/",
+    "freq": 4.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/tags/",
+    "freq": 59.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/merged/",
+    "freq": 436.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/repos/",
+    "freq": 69.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "externalIssueForm.submit",
+    "freq": 128.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/performance/summary/",
+    "freq": 10031.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/projects/",
+    "freq": 10766.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/account/security/",
+    "freq": 127.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/issues/(searches/:searchId/)",
+    "freq": 6394.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/environments/",
+    "freq": 73.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/projects/:projectId/ownership/",
+    "freq": 2.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/events/",
+    "freq": 1851.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/stats/",
+    "freq": 35.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/events/",
+    "freq": 13010.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/billing/checkout/",
+    "freq": 33.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/projects/:projectId/",
+    "freq": 19.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "",
+    "freq": 8710.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/alerts/rules/",
+    "freq": 15.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/billing/overview/",
+    "freq": 504.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/replays/",
+    "freq": 1612.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/audit-log/",
+    "freq": 50.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/dashboards/",
+    "freq": 961.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/crons/",
+    "freq": 6.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/tags/",
+    "freq": 109.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/plugins/:pluginId/",
+    "freq": 84.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/dashboard/:dashboardId/widget/:widgetIndex/edit/",
+    "freq": 56.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/integrations/:integrationSlug",
+    "freq": 262.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/legal/",
+    "freq": 1.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/source-maps/debug-id-bundles/",
+    "freq": 15.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/new/",
+    "freq": 56.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/(searches/:searchId/)",
+    "freq": 224245.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/profiling/profile/:projectId/:eventId/flamechart/",
+    "freq": 27.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/developer-settings/new-internal/",
+    "freq": 18.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "ui.SpanTreeHandleDrag",
+    "freq": 3.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/subscription/redeem-code/",
+    "freq": 1.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/billing/details/",
+    "freq": 1.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/integrations/:integrationSlug",
+    "freq": 1.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/projects/:projectId/environments/",
+    "freq": 4.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/profiling/",
+    "freq": 28.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/_admin/customers/",
+    "freq": 3.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/document-integrations/:integrationSlug",
+    "freq": 4.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/ownership/",
+    "freq": 115.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/alerts/rules/:projectId/:ruleId/details/",
+    "freq": 1589.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/user-feedback/",
+    "freq": 132.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/proguard/",
+    "freq": 20.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/extensions/:integrationSlug/link/",
+    "freq": 37.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/tags/:tagKey/",
+    "freq": 956.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/performance/trends/",
+    "freq": 204.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/onboarding/:step/",
+    "freq": 246.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/",
+    "freq": 73.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/account/notifications/",
+    "freq": 251.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/billing/details/",
+    "freq": 45.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "externalIssueForm.load",
+    "freq": 206.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/discover/queries/",
+    "freq": 87.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/merged/",
+    "freq": 41.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/projects/new/",
+    "freq": 212.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/spike-protection/",
+    "freq": 6.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/debug-symbols/",
+    "freq": 58.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/auth/",
+    "freq": 189.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/replays/:replaySlug/",
+    "freq": 1119.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/teams/:teamId/notifications/",
+    "freq": 127.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/billing/checkout/",
+    "freq": 403.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/releases/:release/commits/",
+    "freq": 65.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/tags/",
+    "freq": 589.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/teams/",
+    "freq": 149.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/issues/:groupId/",
+    "freq": 1661.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/",
+    "freq": 721.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/source-maps/:name/",
+    "freq": 164.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/install/",
+    "freq": 72.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/performance/:eventSlug/",
+    "freq": 2308.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/_admin/",
+    "freq": 4.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/",
+    "freq": 12.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/issues/:groupId/events/:eventId/events/",
+    "freq": 9.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/performance/summary/spans/:spanSlug/",
+    "freq": 217.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/releases/",
+    "freq": 63.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/teams/:teamId/members/",
+    "freq": 3.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/issue-grouping/",
+    "freq": 73.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/account/api/applications/:appId/",
+    "freq": 6.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/environments/hidden/",
+    "freq": 8.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/account/authorizations/",
+    "freq": 11.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/alerts/rules/:projectId/:ruleId/details/",
+    "freq": 60.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/issues/:groupId/events/",
+    "freq": 43.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/performance/",
+    "freq": 213.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/join-request/",
+    "freq": 4.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/alerts/rules/:projectId/:ruleId/",
+    "freq": 900.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "profiles.import",
+    "freq": 11.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/processing-issues/",
+    "freq": 39.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "ui.SpanTreeWindowDrag",
+    "freq": 12.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/account/security/mfa/:authId/",
+    "freq": 35.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/sentry-apps/:integrationSlug",
+    "freq": 37.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/:orgId/:projectId/getting-started/:platform/",
+    "freq": 4.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/members/",
+    "freq": 1624.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/onboarding/:orgId/:step/",
+    "freq": 60.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/teams/:teamId/settings/",
+    "freq": 1.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/source-maps/release-bundles/",
+    "freq": 9.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/_admin/customers/:orgId/",
+    "freq": 38.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/projects/:projectId/install/",
+    "freq": 7.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/dashboard/:dashboardId/widget/new/",
+    "freq": 18.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/projects/:projectId/getting-started/",
+    "freq": 17.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/profiling/summary/:projectId/",
+    "freq": 61.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/alerts/rules/details/:ruleId/",
+    "freq": 1493.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/performance/trace/:traceSlug/",
+    "freq": 216.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/dashboard/:dashboardId/",
+    "freq": 122.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/keys/",
+    "freq": 253.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/user-feedback/",
+    "freq": 17.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/plugins/:integrationSlug/",
+    "freq": 24.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/accept/:memberId/:token/",
+    "freq": 272.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/",
+    "freq": 348369.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/dashboards/new/:templateId",
+    "freq": 113.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/replays/",
+    "freq": 13.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/performance/",
+    "freq": 13729.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/feedback/",
+    "freq": 492.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "saveAlertRule",
+    "freq": 107.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/performance/summary/spans/",
+    "freq": 369.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/security-headers/csp/",
+    "freq": 3.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/discover/results/",
+    "freq": 6542.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/_admin/customers/:orgId/projects/:projectId/",
+    "freq": 14.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/organization/",
+    "freq": 1731.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/billing/receipts/",
+    "freq": 67.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/activity/",
+    "freq": 100.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/teams/",
+    "freq": 566.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/account/details/",
+    "freq": 129.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/performance/summary/events/",
+    "freq": 1435.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/replays/:replaySlug/",
+    "freq": 2.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/audit-log/",
+    "freq": 6.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/dashboards/new/",
+    "freq": 12.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/dashboards/",
+    "freq": 43.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/performance/summary/tags/",
+    "freq": 173.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/account/notifications/:fineTuneType/",
+    "freq": 71.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/security-headers/",
+    "freq": 24.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/projects/",
+    "freq": 691.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/projects/:projectId/keys/",
+    "freq": 5.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/releases/:release/files-changed/",
+    "freq": 10.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/",
+    "freq": 49977.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/performance/vitaldetail/",
+    "freq": 169.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/discover/results/",
+    "freq": 15.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/grouping/",
+    "freq": 4.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "ui.SpanTreeToggle",
+    "freq": 15.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/replays/",
+    "freq": 426.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/integrations/",
+    "freq": 40.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/keys/:keyId/",
+    "freq": 28.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/alerts/",
+    "freq": 10.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/install/:platform/",
+    "freq": 21.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/account/api/auth-tokens/",
+    "freq": 223.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/integrations/",
+    "freq": 705.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/share/issue/:shareId/",
+    "freq": 232.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/security-and-privacy/",
+    "freq": 3.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/stats/issues/",
+    "freq": 80.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/releases/:release/",
+    "freq": 8887.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/stats/",
+    "freq": 3427.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/disabled-member/",
+    "freq": 39.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/similar/",
+    "freq": 66.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/crons/:monitorSlug/edit/",
+    "freq": 33.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/projects/:projectId/",
+    "freq": 47236.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/discover/homepage/",
+    "freq": 14.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/legal/",
+    "freq": 22.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/stats/health/",
+    "freq": 54.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/billing/usage/",
+    "freq": 53.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/billing/cancel/",
+    "freq": 12.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/alerts/wizard/",
+    "freq": 92.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/user-feedback/",
+    "freq": 12.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/performance/",
+    "freq": 41.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/crons/",
+    "freq": 433.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/relay/",
+    "freq": 33.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/release-tracking/",
+    "freq": 64.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/data-forwarding/",
+    "freq": 62.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/teams/:teamId/settings/",
+    "freq": 23.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/security-and-privacy/",
+    "freq": 74.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/releases/",
+    "freq": 4332.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/developer-settings/new-public/",
+    "freq": 1.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/billing/receipts/:invoiceGuid/",
+    "freq": 20.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/performance/summary/profiles/",
+    "freq": 14.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/account/security/mfa/:authId/enroll/",
+    "freq": 17.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/filters/:filterType/",
+    "freq": 194.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/teams/:teamId/notifications/",
+    "freq": 3.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/members/:memberId/",
+    "freq": 91.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/integrations/:providerKey/:integrationId/",
+    "freq": 162.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/billing/usage-log/",
+    "freq": 41.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/account/emails/",
+    "freq": 553.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/_admin/promocodes/:codeId/",
+    "freq": 1.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/source-maps/",
+    "freq": 438.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/members/",
+    "freq": 70.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/alerts/:projectId/wizard/",
+    "freq": 18.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/:orgId/:projectId/dashboard/",
+    "freq": 3.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/grouping/",
+    "freq": 32.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/dashboard/:dashboardId/widget/:widgetId/",
+    "freq": 155.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/",
+    "freq": 1543.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/performance/summary/",
+    "freq": 17.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/alerts/metric-rules/:projectId/:ruleId/",
+    "freq": 148.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/projects/:projectId/",
+    "freq": 377.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/projects/",
+    "freq": 56.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/discover/:eventSlug/",
+    "freq": 3592.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/performance/summary/vitals/",
+    "freq": 195.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/projects/:projectId/alerts/",
+    "freq": 410.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/disabled-member/",
+    "freq": 37.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/alerts/new/:alertType/",
+    "freq": 351.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/attachments/",
+    "freq": 362.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/performance/summary/replays/",
+    "freq": 13.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/crons/create/",
+    "freq": 51.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/crons/:monitorSlug/",
+    "freq": 905.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/accept-transfer/",
+    "freq": 2.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/developer-settings/",
+    "freq": 9.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/_admin/users/",
+    "freq": 2.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/replays/",
+    "freq": 52.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/activity/",
+    "freq": 2638.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/tags/:tagKey/",
+    "freq": 36.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/projects/:projectId/environments/hidden/",
+    "freq": 1.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/feedback/",
+    "freq": 38.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/getting-started/:projectId/:platform/",
+    "freq": 256.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/projects/new/",
+    "freq": 8.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/alerts/rules/details/:ruleId/",
+    "freq": 25.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/issues/:groupId/events/:eventId/",
+    "freq": 592.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/account/subscriptions/",
+    "freq": 30.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/projects/:projectId/release-tracking/",
+    "freq": 5.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/alerts/:alertId/",
+    "freq": 350.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/",
+    "freq": 60.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/discover/homepage/",
+    "freq": 4396.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/releases/:release/",
+    "freq": 91.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/relay/",
+    "freq": 4.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/alerts/rules/",
+    "freq": 1178.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/:orgId/:projectId/",
+    "freq": 1237.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/account/identities/",
+    "freq": 12.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/profiling/",
+    "freq": 1191.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/subscription/redeem-code/",
+    "freq": 9.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/developer-settings/:appSlug/",
+    "freq": 42.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/data-export/:dataExportId",
+    "freq": 12.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/teams/",
+    "freq": 38.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/join-request/:orgId/",
+    "freq": 45.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/issues/:groupId/similar/",
+    "freq": 622.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/account/api/auth-tokens/new-token/",
+    "freq": 14.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/discover/:eventSlug/",
+    "freq": 2.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/alerts/",
+    "freq": 12.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/teams/:teamId/projects/",
+    "freq": 6.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/teams/:teamId/members/",
+    "freq": 74.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/account/close-account/",
+    "freq": 7.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/organizations/:orgId/issues/:groupId/activity/",
+    "freq": 2.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/settings/:orgId/repos/",
+    "freq": 4.0,
+    "proj_id": 11276,
+    "proj_name": "javascript"
+  },
+  {
+    "name": "/alerts/new/:alertType/",
+    "freq": 31.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/:orgId/:projectId/",
+    "freq": 115.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/performance/trace/:traceSlug/",
+    "freq": 90.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.trace-view.errors-view",
+    "freq": 2.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.releases.release-details-chart",
+    "freq": 2.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/profiling/",
+    "freq": 278.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__generic_metrics__api.organization-events.metrics-enhanced.primary",
+    "freq": 226.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/replays/",
+    "freq": 20.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__tsdb-modelid:1",
+    "freq": 2204.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/alerts/rules/",
+    "freq": 3.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__outcomes__tsdb-modelid:608",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__tsdb-modelid:4.alert_event_frequency",
+    "freq": 856.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__Group.get_latest",
+    "freq": 2169.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/:orgId/teams/",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__metrics__api.metrics.series.second_query",
+    "freq": 36.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.organization-events-facets.top-tags",
+    "freq": 3.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__transactions__serializers.GroupSerializerSnuba._execute_perf_seen_stats_query",
+    "freq": 67.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/issues/:groupId/tags/:tagKey/",
+    "freq": 2.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/releases/:release/",
+    "freq": 110.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/issues/(searches/:searchId/)",
+    "freq": 2464.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__outcomes__outcomes.totals",
+    "freq": 9835.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__api.trace-view.get-events",
+    "freq": 40.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/profiling/profile/:projectId/:eventId/flamechart/",
+    "freq": 11.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/projects/:projectId/teams/",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/crons/:monitorSlug/",
+    "freq": 167.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__transactions__tagstore.get_perf_groups_user_counts",
+    "freq": 22.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__tagstore.get_groups_user_counts",
+    "freq": 1116.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__transactions__preview.get_frequency_buckets",
+    "freq": 2.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.organization-event-stats",
+    "freq": 76.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/discover/homepage/",
+    "freq": 1251.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__api.group-events.error",
+    "freq": 1118.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/performance/",
+    "freq": 43.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/onboarding/:orgId/:step/",
+    "freq": 6.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/feedback/",
+    "freq": 18.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/issues/:groupId/activity/",
+    "freq": 12.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/profiling/summary/:projectId/",
+    "freq": 27.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/crons/",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/dashboard/:dashboardId/widget/new/",
+    "freq": 3.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/dashboard/:dashboardId/widget/:widgetIndex/edit/",
+    "freq": 42.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.dashboards.widget.line-chart",
+    "freq": 5.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/discover/:eventSlug/",
+    "freq": 1901.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__search",
+    "freq": 1121.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/discover/:eventSlug/",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__metrics__api.metrics.series",
+    "freq": 632.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/tags/:tagKey/",
+    "freq": 47.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/dashboards/new/widget/new/",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__profiles__api.organization-events",
+    "freq": 86.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/:orgId/projects/:projectId/keys/:keyId/",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__serializers.GroupSerializerSnuba._execute_error_seen_stats_query",
+    "freq": 1366.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/projects/:projectId/performance/",
+    "freq": 10.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__transactions__api.trace-view.get-events",
+    "freq": 39.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/dashboard/:dashboardId/widget/:widgetId/",
+    "freq": 53.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/billing/checkout/",
+    "freq": 5.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/alerts/rules/:projectId/:ruleId/",
+    "freq": 140.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/releases/:release/commits/",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/performance/summary/spans/:spanSlug/",
+    "freq": 77.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/alerts/:alertId/",
+    "freq": 47.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__search_issues__eventstore.get_event_by_id_nodestore",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/performance/:eventSlug/",
+    "freq": 743.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__replays__replays.query.query_replays_dataset_tagkey_values",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/releases/",
+    "freq": 33.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.organization-event-stats.find-topn",
+    "freq": 2.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/projects/:projectId/security-and-privacy/",
+    "freq": 13.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__outcomes_raw__outcomes.timeseries",
+    "freq": 38.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/projects/:projectId/",
+    "freq": 433.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/issues/:groupId/",
+    "freq": 646.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.performance.transaction-summary",
+    "freq": 608.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/projects/:projectId/keys/:keyId/",
+    "freq": 7.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__tsdb-modelid:4.frequency_snoozes",
+    "freq": 16.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/projects/:projectId/source-maps/:name/",
+    "freq": 32.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__tsdb-modelid:300.user_count_snoozes",
+    "freq": 19.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/projects/:projectId/processing-issues/",
+    "freq": 19.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/billing/details/",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__transactions__tagstore.__get_tag_keys",
+    "freq": 2.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.discover.transactions-list",
+    "freq": 507.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/alerts/metric-rules/:projectId/:ruleId/",
+    "freq": 33.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/:groupId/events/",
+    "freq": 6039.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__outcomes__outcomes.timeseries",
+    "freq": 9860.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__generic_metrics__api.organization-events-metrics-compatibility.compatible.metrics-enhanced.primary",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/projects/:projectId/",
+    "freq": 28341.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/similar/",
+    "freq": 28.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__search.group_index",
+    "freq": 1792.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__tagstore.get_tag_value_paginator_for_projects",
+    "freq": 12.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__alertruleserializer.test_query",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__profiles__api.profiling.profile-summary-table",
+    "freq": 3.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__search_issues__search_sample",
+    "freq": 815.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__tagstore.__get_tag_key_and_top_values",
+    "freq": 182.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__tagstore.__get_tag_keys",
+    "freq": 7.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__search_issues__preview.get_top_groups",
+    "freq": 17.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__generic_metrics__api.organization-events-metrics-compatibility.sum_metrics.metrics-enhanced.primary",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/stats/health/",
+    "freq": 13.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/projects/:projectId/source-maps/",
+    "freq": 23.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/(searches/:searchId/)",
+    "freq": 85832.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/releases/",
+    "freq": 3197.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.replay.details-page",
+    "freq": 4.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.trends.get-percentage-change",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/stats/issues/",
+    "freq": 4.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__tsdb-modelid:300.alert_event_uniq_user_frequency",
+    "freq": 195.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/performance/summary/",
+    "freq": 16.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/:groupId/merged/",
+    "freq": 294.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/stats/",
+    "freq": 20.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__eventstore.get_event_by_id_nodestore",
+    "freq": 1898.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/share/issue/:shareId/",
+    "freq": 63.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/:groupId/tags/:tagKey/",
+    "freq": 779.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__tsdb-modelid:4",
+    "freq": 2450.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/account/notifications/",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.performance.generic-widget-chart.worst-fcp-vitals",
+    "freq": 2.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/discover/homepage/",
+    "freq": 6.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/account/notifications/:fineTuneType/",
+    "freq": 3.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/releases/:release/",
+    "freq": 6153.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__tagstore.get_group_list_tag_value",
+    "freq": 174.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/activity/",
+    "freq": 35.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__generic_metrics__api.dashboards.tablewidget.metrics-enhanced.primary",
+    "freq": 11.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/performance/",
+    "freq": 6092.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/projects/:projectId/tags/",
+    "freq": 13.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__transactions__eventstore.get_next_or_prev_event_id",
+    "freq": 5.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.dashboards.widget.bar-chart",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/:orgId/projects/:projectId/",
+    "freq": 9.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__metrics__api.metrics.totals.second_query",
+    "freq": 37.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/alerts/rules/",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__transactions__subscription_processor.comparison_query",
+    "freq": 713.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/billing/overview/",
+    "freq": 4.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/teams/",
+    "freq": 39.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/dashboards/new/",
+    "freq": 7.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/projects/:projectId/plugins/:pluginId/",
+    "freq": 4.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__generic_metrics__api.performance.landing-table.metrics-enhanced.primary",
+    "freq": 67.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/tags/",
+    "freq": 62.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.dashboards.tablewidget",
+    "freq": 164.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/:groupId/",
+    "freq": 162262.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.performance.generic-widget-chart.slow-http-ops",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/dashboard/:dashboardId/",
+    "freq": 6155.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__transactions__tagstore.get_perf_group_list_tag_value",
+    "freq": 9.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__transactions__tsdb-modelid:10.alert_event_frequency",
+    "freq": 2.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__transactions__tagstore._get_tag_keys_and_top_values",
+    "freq": 2.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/dashboard/:dashboardId/",
+    "freq": 32.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__subscription_processor.comparison_query",
+    "freq": 209.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__eventstore.get_next_or_prev_event_id",
+    "freq": 493.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/discover/results/",
+    "freq": 2678.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__metrics__api.metrics.totals.initial_query",
+    "freq": 22.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/alerts/rules/details/:ruleId/",
+    "freq": 514.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.organization-events",
+    "freq": 1045.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "Snuba CLI Initialization",
+    "freq": 542.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/organization/",
+    "freq": 4.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/profiling/",
+    "freq": 5.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__search_issues__search.group_index",
+    "freq": 915.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/replays/:replaySlug/",
+    "freq": 5.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__metrics__api.metrics.totals",
+    "freq": 5170.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "create_subscription",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__outcomes_raw__outcomes.totals",
+    "freq": 43.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__outcomes__tsdb-modelid:610",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/integrations/:integrationSlug",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/:groupId/similar/",
+    "freq": 321.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/stats/",
+    "freq": 1768.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/members/",
+    "freq": 3.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__outcomes_raw__tsdb-modelid:104",
+    "freq": 1450.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.performance.generic-widget-chart.most-slow-frames",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__transactions__Group.get_latest",
+    "freq": 12.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__outcomes_raw__tsdb-modelid:202",
+    "freq": 39.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/performance/summary/spans/",
+    "freq": 143.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/alerts/rules/:projectId/:ruleId/",
+    "freq": 4.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.performance.landing-table",
+    "freq": 81.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__outcomes__tsdb-modelid:201",
+    "freq": 18.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__getsentry.api.pendo-details",
+    "freq": 49.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__api.project-events",
+    "freq": 378.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/account/subscriptions/",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "",
+    "freq": 1734.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__group.unhandled-flag",
+    "freq": 1141.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/:orgId/projects/:projectId/alerts/",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__generic_metrics__api.performance.generic-widget-chart.slow-http-ops.metrics-enhanced",
+    "freq": 2.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.organization-issue-replay-count",
+    "freq": 55.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__tagstore.__get_tag_keys",
+    "freq": 677.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.performance.status-breakdown",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.issues.issue_events",
+    "freq": 27.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/projects/:projectId/user-feedback/",
+    "freq": 2.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__outcomes__tsdb-modelid:104",
+    "freq": 196.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__transactions__tsdb-modelid:302.alert_event_uniq_user_frequency",
+    "freq": 3.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__outcomes_raw__tsdb-modelid:201",
+    "freq": 34.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__search_sample",
+    "freq": 1644.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/performance/summary/replays/",
+    "freq": 4.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/:groupId/attachments/",
+    "freq": 181.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/dashboards/",
+    "freq": 8.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/performance/summary/profiles/",
+    "freq": 2.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__tsdb-modelid:300",
+    "freq": 193.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/alerts/rules/:projectId/:ruleId/details/",
+    "freq": 133.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/:groupId/activity/",
+    "freq": 1923.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.organization-events-meta",
+    "freq": 73.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.serializer.projects.get_stats",
+    "freq": 27.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__generic_metrics__api.performance.generic-widget-chart.worst-lcp-vitals.metrics-enhanced",
+    "freq": 4.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__generic_metrics__api.performance.generic-widget-chart.apdex-area.metrics-enhanced",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/projects/:projectId/alerts/",
+    "freq": 80.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__preview.get_events",
+    "freq": 19.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/discover/queries/",
+    "freq": 65.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/issues/:groupId/events/",
+    "freq": 2.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__incidents.get_incident_aggregates",
+    "freq": 2.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__profiles__api.vroom",
+    "freq": 1153.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/projects/",
+    "freq": 66.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/subscription/redeem-code/",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__outcomes__tsdb-modelid:200",
+    "freq": 77.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.dashboards.worldmapwidget",
+    "freq": 2.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/:orgId/:projectId/dashboard/",
+    "freq": 12.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/:orgId/members/",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__search_issues__search",
+    "freq": 560.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__search_issues__tagstore.__get_tag_keys",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__tagstore.get_group_tag_value_iter",
+    "freq": 146.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/:groupId/grouping/",
+    "freq": 15.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.dashboards.bignumberwidget",
+    "freq": 152.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/getting-started/:projectId/:platform/",
+    "freq": 2.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.discover.query-table",
+    "freq": 31.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__preview.get_top_groups",
+    "freq": 31.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/performance/summary/vitals/",
+    "freq": 191.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__outcomes__tsdb-modelid:202",
+    "freq": 16.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/projects/:projectId/issue-grouping/",
+    "freq": 3.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/projects/:projectId/",
+    "freq": 446.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/account/emails/",
+    "freq": 9.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.organization-events-histogram",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__transactions__tsdb-modelid:10",
+    "freq": 34.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/user-feedback/",
+    "freq": 11.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/replays/:replaySlug/",
+    "freq": 441.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/merged/",
+    "freq": 90.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/replays/",
+    "freq": 466.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "delete_subscription",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "externalIssueForm.load",
+    "freq": 31.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.auth-token.events",
+    "freq": 17509.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/:groupId/replays/",
+    "freq": 305.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/:groupId/tags/",
+    "freq": 538.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/performance/summary/",
+    "freq": 4753.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__tagstore.get_release_tags",
+    "freq": 45333.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/events/",
+    "freq": 733.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/performance/trends/",
+    "freq": 84.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__transactions__preview.get_top_groups",
+    "freq": 16.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/projects/:projectId/keys/",
+    "freq": 5.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.organization-events-histogram-min-max",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__outcomes_raw__tsdb-modelid:200",
+    "freq": 199.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/performance/vitaldetail/",
+    "freq": 29.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__outcomes__spikeprotection.outcomes.timeseries",
+    "freq": 3181.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__outcomes__tsdb-modelid:100",
+    "freq": 1024.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/projects/new/",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/user-feedback/",
+    "freq": 2.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__generic_metrics__api.performance.landing-table.metrics-enhanced.secondary",
+    "freq": 75.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__tagstore._get_tag_keys_and_top_values",
+    "freq": 280.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__tsdb-modelid:407",
+    "freq": 108.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/:groupId/feedback/",
+    "freq": 269.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__outcomes__tsdb-modelid:101",
+    "freq": 239.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/discover/results/",
+    "freq": 9.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/performance/summary/tags/",
+    "freq": 99.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/issues/:groupId/events/:eventId/",
+    "freq": 300.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/replays/",
+    "freq": 6.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/alerts/",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/attachments/",
+    "freq": 35.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/projects/",
+    "freq": 7046.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__api.performance.generic-widget-chart.worst-lcp-vitals",
+    "freq": 2.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__preview.get_frequency_buckets",
+    "freq": 192.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/onboarding/:step/",
+    "freq": 14.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__generic_metrics__api.performance.transaction-summary.metrics-enhanced.primary",
+    "freq": 251.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/performance/summary/events/",
+    "freq": 261.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/account/details/",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__search_issues__tagstore._get_tag_keys_and_top_values",
+    "freq": 1.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/projects/:projectId/ownership/",
+    "freq": 11.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/account/api/auth-tokens/",
+    "freq": 2.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/dashboards/",
+    "freq": 353.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__events__tsdb-modelid:4.alert_event_frequency_percent",
+    "freq": 38.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/alerts/rules/:projectId/:ruleId/details/",
+    "freq": 9.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/issues/:groupId/events/:eventId/",
+    "freq": 25999.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__outcomes_raw__tsdb-modelid:100",
+    "freq": 3207.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__discover__tagstore.get_tag_value_paginator_for_projects",
+    "freq": 3.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__profiles__api.profiling.landing-table",
+    "freq": 6.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__outcomes_raw__tsdb-modelid:101",
+    "freq": 2147.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/organizations/:orgId/projects/",
+    "freq": 404.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "/settings/projects/:projectId/filters/:filterType/",
+    "freq": 30.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "snql_dataset_query_view__replays__replays.query.query_replays_count",
+    "freq": 48.0,
+    "proj_id": 300688,
+    "proj_name": "snuba"
+  },
+  {
+    "name": "GET /login",
+    "freq": 28.0,
+    "proj_id": 4504044639748096,
+    "proj_name": "gibpotato-backend"
+  },
+  {
+    "name": "GET /",
+    "freq": 41.0,
+    "proj_id": 4504044639748096,
+    "proj_name": "gibpotato-backend"
+  },
+  {
+    "name": "HEAD /",
+    "freq": 13.0,
+    "proj_id": 4504044639748096,
+    "proj_name": "gibpotato-backend"
+  },
+  {
+    "name": "GET /MOV/145689.html",
+    "freq": 1.0,
+    "proj_id": 4504044639748096,
+    "proj_name": "gibpotato-backend"
+  },
+  {
+    "name": "GET /apis/apps/v1/namespaces/kube-system/daemonsets",
+    "freq": 1.0,
+    "proj_id": 4504044639748096,
+    "proj_name": "gibpotato-backend"
+  },
+  {
+    "name": "HEAD /login",
+    "freq": 1.0,
+    "proj_id": 4504044639748096,
+    "proj_name": "gibpotato-backend"
+  },
+  {
+    "name": "GET /QMVi",
+    "freq": 1.0,
+    "proj_id": 4504044639748096,
+    "proj_name": "gibpotato-backend"
+  }
+]
