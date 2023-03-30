@@ -8,8 +8,8 @@ IMPLICIT_TRANSACTIONS_CONDITION = {
 }
 
 
-def json_rules_to_frame(file_name: str) -> DataFrame:
-    with request.urlopen('http://www.python.org/') as f:
+def json_rules_to_frame(file_url: str) -> DataFrame:
+    with request.urlopen(file_url) as f:
         rules = json.load(f)
     simple_rules = []
     for rule in rules:
@@ -32,5 +32,5 @@ def json_rules_to_frame(file_name: str) -> DataFrame:
 
 # for debug
 if __name__ == '__main__':
-    pd = json_rules_to_frame("rules-2023-03-30.json")
+    pd = json_rules_to_frame("https://raw.githubusercontent.com/RaduW/volume-rebalance/main/rules-2023-03-30.json")
     print(pd)
