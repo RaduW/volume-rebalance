@@ -17,7 +17,7 @@ def json_rules_to_frame(file_url: str) -> DataFrame:
         if rule["condition"] == IMPLICIT_TRANSACTIONS_CONDITION:
             name = "*"
         else:
-            name = rule["condition"]["inner"][0]["value"]
+            name = rule["condition"]["inner"][0]["value"][0]
 
         if rule["type"] == "transaction" and 1400 <= rule_id < 1500:
             simple_rules.append({
