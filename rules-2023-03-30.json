@@ -1,0 +1,831 @@
+[
+  {
+    "samplingValue": {
+      "type": "sampleRate",
+      "value": 0.0018627079600716657
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "glob",
+          "name": "event.transaction",
+          "value": [
+            "*healthcheck*",
+            "*healthy*",
+            "*live*",
+            "*ready*",
+            "*heartbeat*",
+            "*/health",
+            "*/healthz"
+          ]
+        }
+      ]
+    },
+    "id": 1002
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 1.494346208835201
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "/api/0/customers/{organization_slug}/subscription/",
+            "/api/0/monitors/{monitor_id}/checkins/",
+            "/api/0/organizations/{organization_slug}/alert-rules/",
+            "/api/0/organizations/{organization_slug}/combined-rules/",
+            "/api/0/organizations/{organization_slug}/dashboards/",
+            "/api/0/organizations/{organization_slug}/dashboards/{dashboard_id}/",
+            "/api/0/organizations/{organization_slug}/derive-code-mappings/",
+            "/api/0/organizations/{organization_slug}/events/",
+            "/api/0/organizations/{organization_slug}/events-facets/",
+            "/api/0/organizations/{organization_slug}/events-facets-performance/"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1003
+  },
+  {
+    "samplingValue": {
+      "type": "sampleRate",
+      "value": 1.0
+    },
+    "type": "trace",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "glob",
+          "name": "trace.environment",
+          "value": [
+            "*dev*",
+            "*test*",
+            "*qa*",
+            "*local*"
+          ]
+        }
+      ]
+    },
+    "id": 1001
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 1.494346208835201
+    },
+    "type": "trace",
+    "condition": {
+      "op": "and",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "trace.release",
+          "value": [
+            "backend@70dabe49e034f5b3eb6310ab51dfd9741d1d4467"
+          ]
+        },
+        {
+          "op": "eq",
+          "name": "trace.environment",
+          "value": "prod"
+        }
+      ]
+    },
+    "id": 1500,
+    "timeRange": {
+      "start": "2023-03-30T09:09:29Z",
+      "end": "2023-03-30T10:22:07Z"
+    },
+    "decayingFn": {
+      "type": "linear",
+      "decayedValue": 1.0
+    }
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 1.3625533589771242
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "/auth/login/{organization_slug}/"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1400
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 1.3432554810588104
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "sentry.tasks.files.delete_file"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1401
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 1.2334237171814229
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "sentry.tasks.check_auth_identity"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1402
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 1.0297050852145209
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "/dashboard/:dashboardId/"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1403
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.9766856515980855
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "sentry.profiles.task.process_profile"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1404
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.8985271747417178
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "sentry.tasks.relay.build_project_config"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1405
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.8828665703889211
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "/api/0/organizations/{organization_slug}/stats_v2/"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1406
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.8345990102777875
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "/api/0/projects/{organization_slug}/{project_slug}/releases/{version}/"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1407
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.7824457282593756
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "sentry.tasks.files.delete_unreferenced_blobs"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1408
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.6211375062904846
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "/api/0/projects/{organization_slug}/{project_slug}/files/dsyms/"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1409
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.5640738138429184
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "RelayProjectConfigsEndpoint"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1410
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.5409372385041761
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "/api/0/projects/{organization_slug}/{project_slug}/stats/"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1411
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.48224085183033083
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "/projects/:projectId/"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1412
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.4635600368025856
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "query_subscription_consumer_process_message"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1413
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.4343362870402088
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "/api/0/organizations/{organization_slug}/events/"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1414
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.414486337244285
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "/extensions/jira/issue/{issue_key}/"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1415
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.4031649539993364
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "sentry.tasks.store.process_event"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1416
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.4005565272852283
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "/issues/:groupId/events/:eventId/"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1417
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.3984262883351504
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "integration.http_response.jira"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1418
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.34480146301776476
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "sentry.tasks.low_priority_symbolication.update_lpq_eligibility"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1419
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.28314764110358026
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "/api/0/projects/{organization_slug}/{project_slug}/releases/"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1420
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.24272881450045813
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "integration.http_response.github"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1421
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.2131544919973061
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "sentry.tasks.post_process.post_process_group"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1422
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.21007556029472
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "sentry.tasks.store.save_event"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1423
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.2041349718999686
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "sentry.tasks.process_buffer.buffer_incr_task"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1424
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.1809088195573727
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "sentry.tasks.store.save_event_transaction"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1425
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.16941938025516567
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "/{organization_slug}/"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1426
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.10974833660934999
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "/issues/(searches/:searchId/)"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1427
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.05398333985956347
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "/issues/:groupId/"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1428
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 0.02562321195338003
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "or",
+      "inner": [
+        {
+          "op": "eq",
+          "name": "event.transaction",
+          "value": [
+            "sentry.sentry_metrics.consumers.indexer.processing.process_messages"
+          ],
+          "options": {
+            "ignoreCase": true
+          }
+        }
+      ]
+    },
+    "id": 1429
+  },
+  {
+    "samplingValue": {
+      "type": "factor",
+      "value": 30.609375280019346
+    },
+    "type": "transaction",
+    "condition": {
+      "op": "and",
+      "inner": []
+    },
+    "id": 1430
+  },
+  {
+    "samplingValue": {
+      "type": "sampleRate",
+      "value": 0.009313539800358329
+    },
+    "type": "trace",
+    "condition": {
+      "op": "and",
+      "inner": []
+    },
+    "id": 1000
+  }
+]
+
