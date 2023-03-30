@@ -1,5 +1,6 @@
 from pandas import DataFrame
 import json
+from urllib import request
 
 IMPLICIT_TRANSACTIONS_CONDITION = {
     "op": "and",
@@ -8,7 +9,7 @@ IMPLICIT_TRANSACTIONS_CONDITION = {
 
 
 def json_rules_to_frame(file_name: str) -> DataFrame:
-    with open(file_name, "rt") as f:
+    with request.urlopen('http://www.python.org/') as f:
         rules = json.load(f)
     simple_rules = []
     for rule in rules:
