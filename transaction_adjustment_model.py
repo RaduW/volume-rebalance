@@ -191,7 +191,7 @@ def adjust_sample_rate_v2(
         explicit_rate = explicit_budget / total_explicit
 
         explicit_rates, used = adjust_sample_rate_full_v2(
-            classes=classes,
+            items=classes,
             rate=explicit_rate,
             intensity=intensity,
             min_budget=minimum_explicit_budget
