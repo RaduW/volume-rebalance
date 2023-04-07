@@ -196,6 +196,8 @@ def adjust_sample_rate_v2(
             intensity=intensity,
             min_budget=minimum_explicit_budget
         )
+        # recalculate implicit_budget based on used
+        implicit_budget = total_budget - used
         implicit_rate = implicit_budget / total_implicit
     return explicit_rates, implicit_rate
 

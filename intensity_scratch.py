@@ -1,10 +1,14 @@
 import numpy as np
-from transaction_adjustment_model import adjust_sample_rate_full, get_ideal_rates
+from transaction_adjustment_model import adjust_sample_rate_full, adjust_sample_rate_full_v2, adjust_sample_rate_v2
 
-counts = np.array([10, 10, 100])
+counts = np.array([2, 10, 10, 20, 50, 50, 100])
+
 rate = 0.2
-intensity = 0.5
+intensity = 1.0
 print(f"counts:{counts}, rate={rate}, intensity={intensity}")
+
+total = counts.sum()
+num_classes = len(counts)
 
 sampled = counts * rate
 print(f"sampled original: {sampled}")
@@ -37,7 +41,21 @@ total_sampled = adjusted_counts.sum()
 print(f"total adjusted sample: {total_sampled} expected_sampled:{counts.sum() * rate}")
 
 # now check the algorithm
-counts_dict = [(f"{idx}", count) for idx,count in enumerate(counts)]
+counts_dict = [(f"{idx}-{count}", count) for idx, count in enumerate(counts)]
 
-sample_rates, used = get_ideal_rates(counts_dict, rate, intensity, None)
+sample_rates, used = adjust_sample_rate_full_v2(counts_dict, rate, intensity, None)
 print(f"sample_rates:{sample_rates}, used:{used}")
+
+# check pushing from the top
+top = counts[-2:].tolist()
+bottom = counts[:2].tolist()
+both = bottom + top
+# both = counts
+explicit = [(f"{idx}-{count}", count) for idx, count in enumerate(both)]
+explicit, implicit = adjust_sample_rate_v2(explicit, rate, total_num_classes=num_classes, total=total,
+                                           intensity=intensity)
+
+print(f"implicit={implicit}\n explicit={explicit}")
+
+# implicit=0.22857142857142856
+# explicit={'3': 0.08, '2': 0.16, '1': 0.8, '0': 0.8}
