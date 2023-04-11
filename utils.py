@@ -29,6 +29,27 @@ def json_rules_to_frame(file_url: str) -> DataFrame:
     return ret_val
 
 
+def idx_to_label(idx:int):
+    base="abcdefghijklmnopqrstuvw"
+    l = len(base)
+    result = ""
+    if idx <= 0 :
+        return"a"
+    count =0
+    while idx>0:
+        result+=base[idx%l]
+        idx //= l
+        count+=1
+        if count % 3 == 0:
+            result+="-"
+
+
+    if result[-1] == '-':
+        result = result[:-1]
+
+    return result
+
+
 
 # for debug
 if __name__ == '__main__':
